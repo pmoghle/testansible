@@ -20,5 +20,14 @@
       public_access:
           block_public_acls: false
           ignore_public_acls: false
+          - name: Copy SSL Certificate
+  copy:
+     src: proftpd.pem
+     dest: /etc/pki/tls/certs/proftpd.pem
+
+  - name: Set  pem permission
+    file:
+       path: /etc/pki/tls/certs/proftpd.pem
+       mode: 0440
       policy: "{{ lookup( 'file','mybucket_policy.json' )}}"
       
