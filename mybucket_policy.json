@@ -6,7 +6,7 @@
             "Sid": "ExampleStatement01",
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::821359796262:user/mduser"
+                "AWS": "*"
             },
             "Action": [
                 "s3:GetObject",
