@@ -13,6 +13,6 @@
       region: ap-south-1
       versioning: no
       tags:
-       -  name: 19bucket-1
+       -  name: mynewbucket
           type: example
  
