@@ -18,7 +18,7 @@
       name: mys3bucket
       state: present
       public_access:
-          block_public_acls: true
-          ignore_public_acls: true
+          block_public_acls: false
+          ignore_public_acls: false
       policy: "{{ lookup( 'file','mybucket_policy.json' )}}"
       
