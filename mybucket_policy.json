@@ -15,7 +15,7 @@
                 "s3:PutBucket"
             ],
             "Resource": [
-                "arn:aws:s3:::txbucket-1/mduser/*",
+                "arn:aws:s3:::lslrthbucket-1/mduser/*",
             ]
         }
     ]
