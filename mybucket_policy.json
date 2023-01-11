@@ -14,8 +14,7 @@
                 "s3:ListBucket"
             ],
             "Resource": [
-                "arn:aws:s3:::19bucket-1/mduser",
-                "arn:aws:s3:::19bucket-1"
+                "arn:aws:s3:::20bucket-1/mduser/*",
             ]
         }
     ]
