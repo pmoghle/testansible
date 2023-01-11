@@ -11,7 +11,8 @@
             "Action": [
                 "s3:GetObject",
                 "s3:GetBucketLocation",
-                "s3:ListBucket"
+                "s3:ListBucket",
+                "s3:PutBucket"
             ],
             "Resource": [
                 "arn:aws:s3:::txbucket-1/mduser/*",
