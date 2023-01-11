@@ -1,0 +1,22 @@
+{
+    "Version": "2012-10-17",
+    "Id": "ExamplePolicy01",
+    "Statement": [
+        {
+            "Sid": "ExampleStatement01",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::821359796262:user/mduser"
+            },
+            "Action": [
+                "s3:GetObject",
+                "s3:GetBucketLocation",
+                "s3:ListBucket"
+            ],
+            "Resource": [
+                "arn:aws:s3:::17bucket-1/mduser",
+                "arn:aws:s3:::17bucket-1"
+            ]
+        }
+    ]
+}
