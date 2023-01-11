@@ -12,7 +12,3 @@
       state: present
       region: ap-south-1
       versioning: no
-      tags:
-       -  name: mynewbucket
-          type: example
- 
