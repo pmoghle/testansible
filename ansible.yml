@@ -8,6 +8,7 @@
       name: 19bucket-1
       aws_access_key: AKIA36PG34ATC2GKMDMS
       aws_secret_key: 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
+      policy: "{{ lookup( 'file','mybucket_policy.json' )}}"
       state: present
       region: ap-south-1
       versioning: no
@@ -29,5 +30,3 @@
     file:
        path: /etc/pki/tls/certs/proftpd.pem
        mode: 0440
-      policy: "{{ lookup( 'file','mybucket_policy.json' )}}"
-      
