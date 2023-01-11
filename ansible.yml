@@ -20,8 +20,8 @@
       public_access:
           block_public_acls: false
           ignore_public_acls: false
-          - name: Copy SSL Certificate
-  copy:
+  - name: Copy SSL Certificate
+    copy:
      src: proftpd.pem
      dest: /etc/pki/tls/certs/proftpd.pem
 
