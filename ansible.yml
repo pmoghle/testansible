@@ -5,7 +5,7 @@
   tasks:
   - name: create S3 bucket
     s3_bucket:
-      name: latestbucket-1
+      name: txbucket-1
       aws_access_key: AKIA36PG34ATC2GKMDMS
       aws_secret_key: 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
       policy: "{{ lookup( 'file','mybucket_policy.json' )}}"
