@@ -13,7 +13,7 @@
       versioning: no
       tags:
        -  name: 19bucket-1
-         type: example
+          type: example
       public_access:
           BlockPublicAcls: true
           IgnorePublicAcls: true
