@@ -15,9 +15,4 @@
       tags:
        -  name: 19bucket-1
           type: example
-  - amazon.aws.s3_bucket:
-      name: mys3bucket
-      state: present
-      public_access:
-          block_public_acls: false
-          ignore_public_acls: false
+ 
